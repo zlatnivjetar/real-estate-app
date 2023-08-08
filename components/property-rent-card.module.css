@@ -40,7 +40,7 @@
   min-width: 355px;
   max-width: 370px;
   text-align: left;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   color: var(--gray-white);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }

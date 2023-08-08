@@ -1,11 +1,9 @@
 .houselineIcon {
-  position: relative;
   width: 44px;
   height: 44px;
 }
 .realState,
 .reis {
-  position: relative;
   line-height: 24px;
   font-weight: 600;
 }
@@ -28,39 +26,34 @@
   gap: var(--gap-5xs);
 }
 .contactUs1 {
-  position: relative;
-  font-size: var(--header-heading-4-size);
+  font-size: var(--heading-heading-4-size);
   line-height: 32px;
   font-weight: 600;
   color: var(--gray-black);
 }
 .praesentNullaMassa {
-  position: relative;
   line-height: 24px;
   display: flex;
   align-items: flex-end;
   width: 312px;
 }
 .emailExamplemailcom {
-  position: relative;
   line-height: 24px;
   color: var(--gray-700);
 }
 .contactDetails {
   align-self: stretch;
-  height: 168px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-smi);
   text-align: left;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   color: var(--gray-500);
   font-family: var(--body-regular-400);
 }
 .socialMediaLogo {
-  position: relative;
   width: 20px;
   height: 21.67px;
 }
@@ -74,7 +67,6 @@
   justify-content: center;
 }
 .socialMediaLogo1 {
-  position: relative;
   width: 20px;
   height: 20px;
   overflow: hidden;
@@ -97,10 +89,9 @@
   gap: var(--gap-xl);
   text-align: center;
   color: var(--primary-500);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }
 .home {
-  position: relative;
   line-height: 24px;
 }
 .features,
@@ -112,18 +103,15 @@
 }
 .featuresSubCategories {
   align-self: stretch;
-  height: 184px;
   gap: var(--gap-base);
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   color: var(--gray-500);
 }
 .features {
   width: 173px;
-  height: 248px;
   gap: var(--gap-13xl);
 }
 .teamAndPolicies {
-  position: relative;
   line-height: 32px;
   font-weight: 600;
 }
@@ -136,14 +124,12 @@
 }
 .termsAndPoliciesSubcategori {
   align-self: stretch;
-  height: 104px;
   gap: var(--gap-base);
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   color: var(--gray-500);
 }
 .termsAndPolicies {
   width: 203px;
-  height: 168px;
   gap: var(--gap-13xl);
 }
 .footer,
@@ -156,7 +142,7 @@
   flex: 1;
   justify-content: space-between;
   text-align: left;
-  font-size: var(--header-heading-4-size);
+  font-size: var(--heading-heading-4-size);
   color: var(--gray-black);
   font-family: var(--body-regular-400);
 }

@@ -31,7 +31,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--gap-67xl);
-  font-size: var(--header-heading-4-size);
+  font-size: var(--heading-heading-4-size);
   color: var(--gray-700);
 }
 .areaContent,
@@ -54,5 +54,5 @@
   text-align: center;
   font-size: var(--heading-heading-1-size);
   color: var(--primary-800);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }

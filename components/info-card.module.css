@@ -13,7 +13,7 @@
 .readMore,
 .weDoA {
   position: relative;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   line-height: 24px;
   text-align: left;
 }
@@ -28,7 +28,7 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
   color: var(--primary-500);
   display: inline-block;
 }
@@ -51,7 +51,7 @@
   min-width: 300px;
   max-width: 340px;
   text-align: center;
-  font-size: var(--header-heading-4-size);
+  font-size: var(--heading-heading-4-size);
   color: var(--gray-700);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }

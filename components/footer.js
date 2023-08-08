@@ -1,21 +1,6 @@
-import type { NextPage } from "next";
 import { useMemo } from "react";
-import CSS, { Property } from "csstype";
 import styles from "./footer.module.css";
-
-type FooterType = {
-  imageDimensions?: string;
-  dimensionText?: string;
-  dimensionCode?: string;
-  dimensionCodeImageUrl?: string;
-  productDimensions?: string;
-  dimensionCodeImageText?: string;
-
-  /** Style props */
-  propOverflow?: Property.Overflow;
-};
-
-const Footer: NextPage<FooterType> = ({
+const Footer = ({
   imageDimensions,
   dimensionText,
   dimensionCode,
@@ -24,7 +9,7 @@ const Footer: NextPage<FooterType> = ({
   dimensionCodeImageText,
   propOverflow,
 }) => {
-  const footerSectionStyle: CSS.Properties = useMemo(() => {
+  const footerSectionStyle = useMemo(() => {
     return {
       overflow: propOverflow,
     };

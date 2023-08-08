@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/header";
 import Hero from "../components/hero";
@@ -8,8 +7,8 @@ import RentalPropertiesContainer from "../components/rental-properties-container
 import RentPropertiesForm from "../components/rent-properties-form";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
-import styles from "./landing-page.module.css";
-const LandingPage: NextPage = () => {
+import styles from "./index.module.css";
+const LandingPage = () => {
   return (
     <>
       <Head>

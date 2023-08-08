@@ -5,7 +5,7 @@
 }
 .listings {
   position: relative;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   line-height: 24px;
   text-align: center;
 }
@@ -37,9 +37,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: var(--header-heading-4-size);
+  font-size: var(--heading-heading-4-size);
   color: var(--gray-white);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }
 @media screen and (max-width: 960px) {
   .card1 {

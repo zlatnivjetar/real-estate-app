@@ -1,21 +1,16 @@
-import type { NextPage } from "next";
+import Link from "next/link";
 import styles from "./header.module.css";
-
-type HeaderType = {
-  hamburger?: boolean;
-};
-
-const Header: NextPage<HeaderType> = ({ hamburger }) => {
+const Header = ({ hamburger }) => {
   return (
     <header className={styles.topHeader}>
-      <div className={styles.topContainer}>
-        <div className={styles.logo}>
+      <div className={styles.topContainer} >
+        <Link href="/" className={styles.logo}>
           <img className={styles.houselineIcon} alt="" src="/houseline.svg" />
           <div className={styles.name}>
-            <div className={styles.reis}>REIS</div>
-            <div className={styles.realState}>Real State</div>
+            <div className={styles.reis}>Dome</div>
+            <div className={styles.realState}>Real Estate</div>
           </div>
-        </div>
+        </Link>
         <div className={styles.navigationRight}>
           <div className={styles.navigation}>
             <div className={styles.home}>HOME</div>

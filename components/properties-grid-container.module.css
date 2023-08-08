@@ -8,12 +8,14 @@
 }
 .cards {
   flex: 1;
-  gap: var(--gap-5xs);
+  gap: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .cardwrapper {
   align-self: stretch;
   text-align: left;
   font-size: 14.51px;
   color: var(--gray-700);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }

@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
 import PropertyRentCard from "./property-rent-card";
 import styles from "./rent-properties-form.module.css";
-const RentPropertiesForm: NextPage = () => {
+const RentPropertiesForm = () => {
   return (
     <div className={styles.latestPropertiesOfRentCard}>
       <div className={styles.contents}>

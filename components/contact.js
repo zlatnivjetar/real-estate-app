@@ -1,6 +1,5 @@
-import type { NextPage } from "next";
 import styles from "./contact.module.css";
-const Contact: NextPage = () => {
+const Contact = () => {
   return (
     <div className={styles.latestPropertiesOfRentCard}>
       <div className={styles.contents}>

@@ -1,25 +1,13 @@
-import type { NextPage } from "next";
 import { useMemo } from "react";
 import Link from "next/link";
-import CSS, { Property } from "csstype";
 import styles from "./area-card.module.css";
-
-type AreaCardType = {
-  cityName?: string;
-
-  /** Style props */
-  propBackgroundImage?: Property.BackgroundImage;
-  propPadding?: Property.Padding;
-  propBoxSizing?: Property.BoxSizing;
-};
-
-const AreaCard: NextPage<AreaCardType> = ({
+const AreaCard = ({
   cityName,
   propBackgroundImage,
   propPadding,
   propBoxSizing,
 }) => {
-  const card11Style: CSS.Properties = useMemo(() => {
+  const card1Style = useMemo(() => {
     return {
       backgroundImage: propBackgroundImage,
       padding: propPadding,
@@ -28,7 +16,11 @@ const AreaCard: NextPage<AreaCardType> = ({
   }, [propBackgroundImage, propPadding, propBoxSizing]);
 
   return (
-    <Link className={styles.card1} href="/" style={card11Style}>
+    <Link
+      className={styles.card1}
+      href="/properties-grid-view"
+      style={card1Style}
+    >
       <div className={styles.text}>
         <div className={styles.centerville}>{cityName}</div>
         <div className={styles.listings}>25 listings</div>

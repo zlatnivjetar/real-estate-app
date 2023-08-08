@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
 import InfoCard from "./info-card";
 import styles from "./feature-container.module.css";
-const FeatureContainer: NextPage = () => {
+const FeatureContainer = () => {
   return (
     <div className={styles.propertiesByAreaFeatureCar}>
       <div className={styles.areaContent}>
@@ -17,23 +16,24 @@ const FeatureContainer: NextPage = () => {
           <InfoCard
             listingImageId="/icon.svg"
             homeActionText="Sell your home"
+            propPadding="20px"
           />
           <InfoCard
             listingImageId="/icon1.svg"
             homeActionText="Rent your home"
-            propPadding="var(--padding-3xl) var(--padding-base)"
+            propPadding="20px"
             propWidth="312px"
           />
           <InfoCard
             listingImageId="/icon2.svg"
             homeActionText="Buy a home"
-            propPadding="22px 80px"
+            propPadding="20px"
             propWidth="unset"
           />
           <InfoCard
             listingImageId="/icon3.svg"
             homeActionText="Free marketing"
-            propPadding="var(--padding-3xl) var(--padding-xl)"
+            propPadding="20px"
             propWidth="312px"
           />
         </div>

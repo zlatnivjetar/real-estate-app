@@ -17,7 +17,7 @@
   position: relative;
   font-size: var(--body-large-400-size);
   line-height: 28px;
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
   color: var(--primary-50);
 }
 .rent,
@@ -43,10 +43,10 @@
 }
 .sale1 {
   position: relative;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   line-height: 24px;
   font-weight: 500;
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
   color: var(--primary-400);
   text-align: center;
 }
@@ -109,10 +109,10 @@
 }
 .search {
   position: relative;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   line-height: 24px;
   font-weight: 500;
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
   color: var(--gray-white);
   text-align: center;
 }
@@ -159,9 +159,9 @@
   justify-content: flex-start;
   gap: var(--gap-mid);
   text-align: left;
-  font-size: var(--body-regular-400-size);
+  font-size: var(--body-regular-500-size);
   color: var(--primary-700);
-  font-family: var(--body-regular-600);
+  font-family: var(--body-large-400);
 }
 .heroSection,
 .heroSectionContents,

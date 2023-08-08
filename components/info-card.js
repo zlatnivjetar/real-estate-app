@@ -1,24 +1,12 @@
-import type { NextPage } from "next";
 import { useMemo } from "react";
-import CSS, { Property } from "csstype";
 import styles from "./info-card.module.css";
-
-type InfoCardType = {
-  listingImageId?: string;
-  homeActionText?: string;
-
-  /** Style props */
-  propPadding?: Property.Padding;
-  propWidth?: Property.Width;
-};
-
-const InfoCard: NextPage<InfoCardType> = ({
+const InfoCard = ({
   listingImageId,
   homeActionText,
   propPadding,
   propWidth,
 }) => {
-  const sellYourHomeStyle: CSS.Properties = useMemo(() => {
+  const sellYourHomeStyle = useMemo(() => {
     return {
       padding: propPadding,
       width: propWidth,

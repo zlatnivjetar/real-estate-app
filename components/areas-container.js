@@ -1,7 +1,6 @@
-import type { NextPage } from "next";
 import AreaCard from "./area-card";
 import styles from "./areas-container.module.css";
-const AreasContainer: NextPage = () => {
+const AreasContainer = () => {
   return (
     <div className={styles.propertiesByAreaImagesSect}>
       <div className={styles.description}>
